@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Robotron_Symbole")(type "KiCad")(uri "${KIPRJMOD}/Robotron_Symbole.kicad_sym")(options "")(descr ""))
+)
