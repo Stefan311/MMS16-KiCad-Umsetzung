@@ -13,415 +13,6 @@
 		(comment 2 "Übertragen nach KiCad von Stefan Berndt, 12/2024")
 	)
 	(lib_symbols
-		(symbol "7420_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 6.35 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "7420"
-				(at 3.302 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "7420_1_0_0"
-				(text "&"
-					(at 0 -0.762 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-					)
-				)
-			)
-			(symbol "7420_1_0_1"
-				(rectangle
-					(start -5.08 6.35)
-					(end 5.08 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "7420_1_1_1"
-				(pin input line
-					(at -8.89 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 0 0)
-					(length 3.81) hide
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -5.08 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 8.89 -1.27 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "7420_1_2_1"
-				(pin input line
-					(at -8.89 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -5.08 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 8.89 -1.27 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "7420_1_3_1"
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 3.81)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 3.81)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 3.81)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016) hide)
@@ -3405,24 +2996,6 @@
 						)
 					)
 				)
-				(pin output inverted
-					(at 8.89 -1.27 180)
-					(length 3.81) hide
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -8.89 -2.54 0)
 					(length 3.81)
@@ -4785,9 +4358,9 @@
 					)
 				)
 				(pin power_in line
-					(at 1.27 -13.97 90)
+					(at 1.27 10.16 270)
 					(length 3.81)
-					(name "GND"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4803,9 +4376,9 @@
 					)
 				)
 				(pin power_in line
-					(at 1.27 10.16 270)
+					(at 1.27 -13.97 90)
 					(length 3.81)
-					(name "VCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5054,9 +4627,9 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -24.13 90)
+					(at 12.7 -7.62 270)
 					(length 2.54)
-					(name "GND"
+					(name "UCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5180,9 +4753,9 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -7.62 270)
+					(at 12.7 -24.13 90)
 					(length 2.54)
-					(name "UCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5442,24 +5015,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 -15.24 270)
-					(length 2.54)
-					(name "UCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input inverted
 					(at 0 -34.29 0)
 					(length 2.54)
@@ -5568,6 +5123,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 12.7 -15.24 270)
+					(length 2.54)
+					(name "UCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 25.4 -15.24 180)
 					(length 2.54)
@@ -5579,24 +5152,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 -31.75 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5705,6 +5260,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -31.75 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5850,9 +5423,9 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -12.7 270)
+					(at 12.7 -29.21 90)
 					(length 2.54)
-					(name "UCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6048,9 +5621,9 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -29.21 90)
+					(at 12.7 -12.7 270)
 					(length 2.54)
-					(name "GND"
+					(name "UCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6365,9 +5938,9 @@
 					)
 				)
 				(pin power_in line
-					(at 13.97 -20.32 270)
+					(at 13.97 -36.83 90)
 					(length 2.54)
-					(name "UCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6563,9 +6136,9 @@
 					)
 				)
 				(pin power_in line
-					(at 13.97 -36.83 90)
+					(at 13.97 -20.32 270)
 					(length 2.54)
-					(name "GND"
+					(name "UCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -18081,7 +17654,7 @@
 		)
 		(uuid "b81cc1c4-aa51-4a10-9d3b-3ad1d16b0d0c")
 	)
-	(text "Im original-Stromlaufplan vorhanden,\nauf Platine nicht geroutet!"
+	(text "Auf der A7100-Variante nicht vorhanden,\nauf der A7150-Variante mit Lackdrat ausgeführt."
 		(exclude_from_sim no)
 		(at 547.116 323.596 0)
 		(effects
@@ -24681,9 +24254,6 @@
 		(pin "2"
 			(uuid "4e549494-6d00-4d35-9e28-4e19abbf9568")
 		)
-		(pin "3"
-			(uuid "18d14218-d9b1-4071-a3e3-62e46ad7c4c4")
-		)
 		(pin "9"
 			(uuid "c1c6e085-57bc-4a4d-abe0-7ccbe0bdaa38")
 		)
@@ -26136,7 +25706,6 @@
 		)
 	)
 	(symbol
-		(lib_name "7420_1")
 		(lib_id "Robotron_Symbole:7420")
 		(at 287.02 340.36 0)
 		(unit 1)
@@ -35286,10 +34855,10 @@
 		(pin "1"
 			(uuid "012ff2e5-be6e-46df-b6b0-fa5110de3530")
 		)
-		(pin "20"
+		(pin "18"
 			(uuid "3a576e23-2ebc-4253-963a-8e0bcd294737")
 		)
-		(pin "10"
+		(pin "9"
 			(uuid "f0cd8ccc-6222-4294-8e42-69ff2c031f59")
 		)
 		(instances

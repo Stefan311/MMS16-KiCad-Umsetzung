@@ -2876,24 +2876,6 @@
 						)
 					)
 				)
-				(pin output inverted
-					(at 8.89 -1.27 180)
-					(length 3.81) hide
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -8.89 -2.54 0)
 					(length 3.81)
@@ -4256,9 +4238,9 @@
 					)
 				)
 				(pin power_in line
-					(at 1.27 -13.97 90)
+					(at 1.27 10.16 270)
 					(length 3.81)
-					(name "GND"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4274,9 +4256,9 @@
 					)
 				)
 				(pin power_in line
-					(at 1.27 10.16 270)
+					(at 1.27 -13.97 90)
 					(length 3.81)
-					(name "VCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4525,9 +4507,9 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -24.13 90)
+					(at 12.7 -7.62 270)
 					(length 2.54)
-					(name "GND"
+					(name "UCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4651,9 +4633,9 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -7.62 270)
+					(at 12.7 -24.13 90)
 					(length 2.54)
-					(name "UCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4824,9 +4806,9 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -13.97 270)
+					(at 12.7 -30.48 90)
 					(length 2.54)
-					(name "UCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5022,9 +5004,9 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -30.48 90)
+					(at 12.7 -13.97 270)
 					(length 2.54)
-					(name "GND"
+					(name "UCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8204,9 +8186,9 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -16.51 270)
+					(at 12.7 -33.02 90)
 					(length 2.54)
-					(name "UCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8438,9 +8420,9 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -33.02 90)
+					(at 12.7 -16.51 270)
 					(length 2.54)
-					(name "GND"
+					(name "UCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8863,9 +8845,9 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -31.75 90)
+					(at 12.7 -15.24 270)
 					(length 2.54)
-					(name "GND"
+					(name "UCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9007,9 +8989,9 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -15.24 270)
+					(at 12.7 -31.75 90)
 					(length 2.54)
-					(name "UCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -33757,7 +33739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_DIN:DIN41612_R_3x32_Female_Horizontal_THT"
+		(property "Footprint" "Connector_DIN:DIN41612_C_3x32_Male_Horizontal_THT"
 			(at 158.75 359.41 0)
 			(effects
 				(font
@@ -36006,9 +35988,6 @@
 		(pin "2"
 			(uuid "4e549494-6d00-4d35-9e28-4e19abbf9568")
 		)
-		(pin "3"
-			(uuid "18d14218-d9b1-4071-a3e3-62e46ad7c4c4")
-		)
 		(pin "9"
 			(uuid "28fd6b2a-702b-4967-9fb1-725868ef4088")
 		)
@@ -37165,8 +37144,7 @@
 	)
 	(symbol
 		(lib_id "Robotron_Symbole:7474")
-		(at 473.71 350.52 0)
-		(mirror x)
+		(at 473.71 346.71 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37174,7 +37152,7 @@
 		(dnp no)
 		(uuid "5f1e72d9-8ce2-4dff-8faf-300573978c57")
 		(property "Reference" "FCDM1"
-			(at 476.504 343.408 0)
+			(at 476.504 353.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37182,7 +37160,7 @@
 			)
 		)
 		(property "Value" "7474"
-			(at 476.504 354.076 0)
+			(at 476.504 343.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37190,7 +37168,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 473.71 350.52 0)
+			(at 473.71 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37199,7 +37177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 473.71 350.52 0)
+			(at 473.71 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37208,7 +37186,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 473.71 350.52 0)
+			(at 473.71 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37386,8 +37364,7 @@
 	)
 	(symbol
 		(lib_id "Robotron_Symbole:7474")
-		(at 480.06 350.52 0)
-		(mirror x)
+		(at 480.06 346.71 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37395,7 +37372,7 @@
 		(dnp no)
 		(uuid "63b39e9a-1cdc-4cff-8c62-f44ef295c861")
 		(property "Reference" "FCEK1"
-			(at 482.854 343.408 0)
+			(at 482.854 353.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37403,7 +37380,7 @@
 			)
 		)
 		(property "Value" "7474"
-			(at 482.854 353.568 0)
+			(at 482.854 343.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37411,7 +37388,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 480.06 350.52 0)
+			(at 480.06 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37420,7 +37397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 480.06 350.52 0)
+			(at 480.06 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37429,7 +37406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 480.06 350.52 0)
+			(at 480.06 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37747,8 +37724,7 @@
 	)
 	(symbol
 		(lib_id "Robotron_Symbole:7474")
-		(at 486.41 350.52 0)
-		(mirror x)
+		(at 486.41 346.71 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37756,7 +37732,7 @@
 		(dnp no)
 		(uuid "6c179008-70ef-44da-a3b7-daae009cda7e")
 		(property "Reference" "EQCO1"
-			(at 489.204 343.408 0)
+			(at 489.204 353.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37764,7 +37740,7 @@
 			)
 		)
 		(property "Value" "7474"
-			(at 489.458 354.076 0)
+			(at 489.458 343.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37772,7 +37748,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 486.41 350.52 0)
+			(at 486.41 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37781,7 +37757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 486.41 350.52 0)
+			(at 486.41 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37790,7 +37766,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 486.41 350.52 0)
+			(at 486.41 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38697,8 +38673,7 @@
 	)
 	(symbol
 		(lib_id "Robotron_Symbole:7474")
-		(at 505.46 350.52 0)
-		(mirror x)
+		(at 505.46 346.71 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38706,7 +38681,7 @@
 		(dnp no)
 		(uuid "8392048e-66a8-43c8-aafc-816779d16014")
 		(property "Reference" "GQAS1"
-			(at 508.508 343.408 0)
+			(at 508.508 353.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38714,7 +38689,7 @@
 			)
 		)
 		(property "Value" "7474"
-			(at 508.508 354.076 0)
+			(at 508.508 343.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38722,7 +38697,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 505.46 350.52 0)
+			(at 505.46 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38731,7 +38706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 505.46 350.52 0)
+			(at 505.46 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38740,7 +38715,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 505.46 350.52 0)
+			(at 505.46 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39031,7 +39006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_DIN:DIN41612_R_3x32_Female_Horizontal_THT"
+		(property "Footprint" "Connector_DIN:DIN41612_C_3x32_Male_Horizontal_THT"
 			(at 158.75 396.24 0)
 			(effects
 				(font
@@ -40483,8 +40458,7 @@
 	)
 	(symbol
 		(lib_id "Robotron_Symbole:7474")
-		(at 499.11 350.52 0)
-		(mirror x)
+		(at 499.11 346.71 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40492,7 +40466,7 @@
 		(dnp no)
 		(uuid "acda3f37-eaf2-4da4-8c10-dd8d4012911f")
 		(property "Reference" "FMDM1"
-			(at 501.904 343.408 0)
+			(at 501.904 353.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40500,7 +40474,7 @@
 			)
 		)
 		(property "Value" "7474"
-			(at 501.65 354.076 0)
+			(at 501.65 343.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40508,7 +40482,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 499.11 350.52 0)
+			(at 499.11 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40517,7 +40491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 499.11 350.52 0)
+			(at 499.11 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40526,7 +40500,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 499.11 350.52 0)
+			(at 499.11 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40587,8 +40561,7 @@
 	)
 	(symbol
 		(lib_id "Robotron_Symbole:7474")
-		(at 467.36 350.52 0)
-		(mirror x)
+		(at 467.36 346.71 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40596,7 +40569,7 @@
 		(dnp no)
 		(uuid "ad2d029f-2f08-4717-9a3c-9546b39a6bab")
 		(property "Reference" "DUDM1"
-			(at 470.408 343.662 0)
+			(at 470.408 353.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40604,7 +40577,7 @@
 			)
 		)
 		(property "Value" "7474"
-			(at 469.9 354.33 0)
+			(at 469.9 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40613,7 +40586,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 467.36 350.52 0)
+			(at 467.36 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40622,7 +40595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 467.36 350.52 0)
+			(at 467.36 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40631,7 +40604,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 467.36 350.52 0)
+			(at 467.36 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42872,8 +42845,7 @@
 	)
 	(symbol
 		(lib_id "Robotron_Symbole:7474")
-		(at 492.76 350.52 0)
-		(mirror x)
+		(at 492.76 346.71 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42881,7 +42853,7 @@
 		(dnp no)
 		(uuid "f5ed3dbc-654e-426f-be98-66e83f1ef119")
 		(property "Reference" "GIDM1"
-			(at 495.808 343.408 0)
+			(at 495.808 353.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42889,7 +42861,7 @@
 			)
 		)
 		(property "Value" "7474"
-			(at 495.808 353.568 0)
+			(at 495.808 343.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42897,7 +42869,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 492.76 350.52 0)
+			(at 492.76 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42906,7 +42878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 492.76 350.52 0)
+			(at 492.76 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42915,7 +42887,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 492.76 350.52 0)
+			(at 492.76 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
