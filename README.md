@@ -10,3 +10,6 @@ Stromlaufplan komplett, Routing komplett, Funktion NICHT verifiziert
 AFS: 
 Stromlaufplan komplett, Routing NICHT komplett, Funktion NICHT verifiziert
 
+---
+ZVE:
+Stromlaufplan komplett, Routing komplett, Funktion NICHT verifiziert
