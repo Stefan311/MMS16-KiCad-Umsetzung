@@ -3,7 +3,7 @@ Alte Stromlaufpläne und Layouts von MMS16-Karten in KiCad übertragen.
 
 ### Status
 ---
-KES: 
+KES (A7100-Variante): 
 Stromlaufplan komplett, Routing komplett, Funktion NICHT verifiziert
 
 ---
@@ -11,5 +11,10 @@ AFS:
 Stromlaufplan komplett, Routing NICHT komplett, Funktion NICHT verifiziert
 
 ---
-ZVE:
+ZVE (A7100-Variante):
 Stromlaufplan komplett, Routing komplett, Funktion NICHT verifiziert
+
+---
+OPS (256K-Variante):
+Stromlaufplan komplett, Routing komplett, Funktion NICHT verifiziert
+
