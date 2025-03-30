@@ -18,3 +18,7 @@ Stromlaufplan komplett, Routing komplett, Funktion NICHT verifiziert
 OPS (256K-Variante):
 Stromlaufplan komplett, Routing komplett, Funktion NICHT verifiziert
 
+---
+AFP:
+Stromlaufplan komplett, Routing komplett, Funktion NICHT verifiziert
+
