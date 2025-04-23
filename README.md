@@ -7,7 +7,7 @@ KES (A7100-Variante):
 Stromlaufplan komplett, Routing komplett, Funktion NICHT verifiziert
 
 ---
-AFS: 
+AFS
 Stromlaufplan komplett, Routing NICHT komplett, Funktion NICHT verifiziert
 
 ---
@@ -19,6 +19,9 @@ OPS (256K-Variante):
 Stromlaufplan komplett, Routing komplett, Funktion NICHT verifiziert
 
 ---
-AFP:
+AFP
 Stromlaufplan komplett, Routing komplett, Funktion NICHT verifiziert
 
+---
+ABG-K7072 (A7100-Variante)
+Stromlaufplan komplett, Routing komplett, Funktion NICHT verifiziert
